@@ -18,8 +18,10 @@ body {
 }
 
 @media (max-width:768px) {
-.info { text-align: center;
-}
+
+    .info { text-align: center;
+    }
+
 }
 .container {
     display: block;
@@ -111,7 +113,7 @@ li > label {
     width: 226px;
 }
 li >    input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 .delete:hover {
     color: #CF2323;
@@ -127,7 +129,7 @@ li >    input[type="text"] {
 
 /* Completed */
 #completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
@@ -138,7 +140,7 @@ ul li input[type=text] {
 
 .edit-mode input[type=text] {
     display:inline-block;
-    width:224px
+    width:224px;
 }
 
 .edit-mode label {
