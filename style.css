@@ -43,6 +43,7 @@ h3 {
 input,
 button{
     outline: none;
+    box-sizing: border-box;
 }
 button {
     background: none;
@@ -88,10 +89,10 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-#new-task {
+.add-item__text {
     width: 318px;
 }
-p > button:hover {
+.add-item__btn:hover {
     color: #0FC57C;
 }
 
